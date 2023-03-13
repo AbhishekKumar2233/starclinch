@@ -1,0 +1,36 @@
+.main-div {
+  width: 100%;
+}
+.video {
+  width: 100%;
+  height: 50vh;
+  background-image: url("https://images.pexels.com/photos/1024967/pexels-photo-1024967.jpeg?auto=compress&cs=tinysrgb&w=400");
+}
+.details-heading {
+  display: flex;
+  padding: 8px;
+}
+.details {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  padding: 8px;
+}
+.details p {
+  font-size: 14px;
+  padding-top: 5px;
+}
+.budget {
+  width: 100%;
+  margin: 10px auto;
+}
+#price {
+  width: 40%;
+  margin: 5px auto;
+  color: white;
+  padding: 2px;
+  font-size: 20px;
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 50px;
+}
