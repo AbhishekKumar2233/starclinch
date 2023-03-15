@@ -24,6 +24,10 @@ export default function Main() {
           <h4 id="price"> &#8377;5,00,000</h4>
           <h5>Singers under 5 Lakh</h5>
         </div>
+        <div className="select-singers">
+          <h1>SINGERS</h1>
+          <p>Select an Artist that matches your vibe.</p>
+        </div>
       </div>
     </>
   );

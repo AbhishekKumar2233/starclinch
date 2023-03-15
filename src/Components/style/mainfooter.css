@@ -1,0 +1,58 @@
+.mainfooter {
+  width: 100%;
+  height: 60vh;
+}
+.logo {
+  width: 80%;
+  margin: 5px auto;
+}
+.socialmedia-icons {
+  width: 50%;
+  margin: 0px auto;
+}
+.socialmedia-icons img {
+  width: 25px;
+  height: auto;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.footertopics {
+  width: 90%;
+  margin: 5px auto;
+  display: flex;
+}
+.topic-item {
+  width: 50%;
+  height: auto;
+  padding: 5px;
+  border: 2px solid white;
+}
+.topic-item h4 {
+  font-size: 16px;
+}
+.topic-item p {
+  margin-top: 5px;
+  font-size: 14px;
+}
+.address {
+  width: 80%;
+  margin: 5px auto;
+}
+.address h4 {
+  width: 70%;
+  line-height: 18px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.address p {
+  width: 70%;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 5px;
+}
+.copyright {
+  text-align: center;
+  margin: 10px;
+  font-size: 14px;
+  color: black;
+}

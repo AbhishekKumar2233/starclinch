@@ -1,12 +1,15 @@
-.main {
+.cardbg {
+  position: relative;
   width: 300px;
   height: 500px;
-  margin: 10px auto;
-  background-image: url("https://stcdn.starclinch.in/comdjcompresswebp/jade-min.webp");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  margin: 25px auto;
   border: 2px solid #000000;
+  border-radius: 15px;
+}
+.glassbg {
+  position: absolute;
+  width: 300px;
+  height: 100%;
   border-radius: 15px;
 }
 .half-window {
@@ -18,6 +21,7 @@
   border-radius: 15px;
   border-top: 2px solid #ffffff;
   border-bottom: 0px;
+  text-align: center;
 }
 .singer-name {
   background-color: transparent;
@@ -27,7 +31,7 @@
   font-size: 15px;
 }
 .singer-name h5 {
-  margin-top: 5px;
+  margin-top: 10px;
 }
 .location {
   display: flex;

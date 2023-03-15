@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./style/Card.css";
 
-export default function Card() {
+export default function Card({ singer }) {
   const [btntext, setBtntext] = useState("SELECT");
 
   const onClickchangebtntext = () => {
@@ -14,18 +14,19 @@ export default function Card() {
 
   return (
     <>
-      <div className="main">
+      <div className="cardbg">
+        <img className="glassbg" alt={singer.name} src={singer.imglink} />
         <div className="half-window">
           <div className="singer-name">
-            <h1>Jade</h1>
+            <h1>{singer.name}</h1>
             <h5>singer</h5>
           </div>
           <div className="location">
-            <p>New Delhi</p>
+            <p>{singer.location}</p>
           </div>
           <div className="event-booking">
             <p>Event Booking</p>
-            <p>104</p>
+            <p>{singer.events}</p>
           </div>
           <div className="image-grid">
             <img

@@ -1,25 +1,19 @@
-import Card from "./Components/Card";
-import Footer from "./Components/Footer";
-import Header from "./Components/Header";
-import Main from "./Components/Main";
-import Selected from "./Components/Selected";
+import React from "react";
+import ReactDOM from "react-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./Pages/Home";
 import "./styles.css";
+import Conatctus from "./Pages/Contactus";
 
 export default function App() {
   return (
     <div className="App">
-      <Header />
-      <Main />
-      <div className="select-singers">
-        <h1>SINGERS</h1>
-        <p>Select an Artist that matches your vibe.</p>
-      </div>
-      <div className="container">
-        <Card />
-        <Card />
-      </div>
-      <Selected />
-      <Footer />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/contact" element={<Conatctus />}></Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

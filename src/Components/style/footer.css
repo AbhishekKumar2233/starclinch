@@ -1,6 +1,26 @@
 .footer {
-  margin-top: 20px;
-  padding: 25px;
   background-color: black;
   color: white;
+  font-size: 15px;
+  padding: 20px;
+}
+.footer h4 {
+  width: 100%;
+  font-size: 19px;
+  text-align: center;
+}
+.footer p {
+  text-align: center;
+  color: goldenrod;
+}
+.footer ul {
+  line-height: 22px;
+  font-size: 12px;
+}
+.footer li {
+  margin: 0;
+  padding: 0;
+}
+.underline {
+  text-decoration: underline;
 }
